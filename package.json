@@ -1,0 +1,23 @@
+{
+  "name": "reports-service",
+  "version": "1.0.0",
+  "description": "A microservice to generate reports from web survey data",
+  "main": "server.ts",
+  "scripts": {
+    "start-server": "tsc && node build/server.js",
+    "start": "nodemon -e ts -w ./ -x npm run start-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Caitlin Watson-Beaton",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "typescript": "^3.9.7"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.7",
+    "@types/morgan": "^1.9.1",
+    "prettier": "^2.0.5"
+  }
+}
