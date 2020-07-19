@@ -11,6 +11,7 @@
   "author": "Caitlin Watson-Beaton",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.19.2",
     "express": "^4.17.1",
     "handlebars": "^4.7.6",
     "morgan": "^1.10.0",
